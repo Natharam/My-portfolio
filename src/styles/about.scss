@@ -1,0 +1,59 @@
+.about-section {
+  width: 100%;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+  @include media(">=phone", "<lgphone") {
+    flex-direction: column-reverse;
+  }
+  @include media(">=lgphone", "<tablet") {
+    flex-direction: column-reverse;
+  }
+  @include media(">=tablet", "<desktop") {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .content {
+    width: 35%;
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      @include media(">=tablet", "<desktop") {
+        text-align: center;
+      }
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      @include media(">=tablet", "<desktop") {
+        text-align: center;
+      }
+    }
+  }
+  .image-wrapper {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+  }
+}
