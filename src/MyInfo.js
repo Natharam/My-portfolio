@@ -1,15 +1,15 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+// import htmlIcon from "./images/html.svg"
+// import cssIcon from "./images/css.svg"
+// import reactIcon from "./images/react.svg"
+// import jsIcon from "./images/javascript.svg"
+// import designIcon from "./images/design.svg"
+// import codeIcon from "./images/code.svg"
 
-// Social Icon
-import githubIcon from "./images/github.svg"
-import linkedinIcon from "./images/linkedin.svg"
-import instagramIcon from "./images/instagram.svg"
+// // Social Icon
+// import githubIcon from "./images/github.svg"
+// import linkedinIcon from "./images/linkedin.svg"
+// import instagramIcon from "./images/instagram.svg"
 
 export default {
 
@@ -92,26 +92,26 @@ export default {
 
   // Skills Section ---------------
 
-  skills: [
-    {
-      img: htmlIcon,
-    },
-    {
-      img: cssIcon,
-    },
-    {
-      img: jsIcon,
-    },
-    {
-      img: reactIcon,
-    },
-    {
-      img: designIcon,
-    },
-    {
-      img: codeIcon,
-    },
-  ],
+  // skills: [
+  //   {
+  //     img: htmlIcon,
+  //   },
+  //   {
+  //     img: cssIcon,
+  //   },
+  //   {
+  //     img: jsIcon,
+  //   },
+  //   {
+  //     img: reactIcon,
+  //   },
+  //   {
+  //     img: designIcon,
+  //   },
+  //   {
+  //     img: codeIcon,
+  //   },
+  // ],
 
   // End Skills Section --------------------------
 
@@ -119,15 +119,15 @@ export default {
 
   contactSubHeading: "Let's create your next experience together",
   social: [
-    { img: githubIcon, url: "https://github.com/Natharam" },
-    {
-      img: linkedinIcon,
-      url: "https://www.linkedin.com/in/natharam123/",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/jaipal_natha_45_/",
-    },
+    // { img: githubIcon, url: "https://github.com/Natharam" },
+    // {
+    //   img: linkedinIcon,
+    //   url: "https://www.linkedin.com/in/natharam123/",
+    // },
+    // {
+    //   img: instagramIcon,
+    //   url: "https://www.instagram.com/jaipal_natha_45_/",
+    // },
   ],
 
   // End Contact Section ---------------

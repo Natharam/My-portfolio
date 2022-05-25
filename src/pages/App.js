@@ -9,13 +9,15 @@ import Skills from "../components/skills"
 import Footer from "../components/Footer"
 
 const IndexPage = () => (
+  <>
   <Layout>
     <Header/>
     <Work/>
     <About/>
-    <Skills/>
+    {/* <Skills/> */}
     <Footer/>
   </Layout>
+  </>
 )
 
 export default IndexPage
